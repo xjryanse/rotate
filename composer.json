@@ -1,0 +1,20 @@
+{
+    "name": "xjryanse/rotate",
+    "description": "大转盘抽奖模块，基于TP框架",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xjryanse",
+            "email": "xjryanse@sina.com"
+        }
+    ],
+    "require": {
+
+    },    
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+          "xjryanse\\rotate\\": "src/"
+        }
+    }
+}
