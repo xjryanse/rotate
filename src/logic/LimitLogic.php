@@ -54,7 +54,7 @@ class LimitLogic extends UserAbstract
     private static function typeCon(object &$log, int $type,string $mobile )
     {
         if($type == 1){
-            $log->where('msisdn',$mobile);
+            $log->where('phone',$mobile);
         }
     }
     /**

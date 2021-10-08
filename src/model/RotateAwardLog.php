@@ -14,7 +14,7 @@ class RotateAwardLog extends Base
      */
     public static function getDailyLuckyTimes($mobile)
     {
-        return self::where('msisdn', $mobile)
+        return self::where('phone', $mobile)
             ->where('from', '转盘')
             ->whereTime('create_time', 'd')
             ->count();

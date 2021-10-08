@@ -21,7 +21,7 @@ class LogService extends UserAbstract
         $data['token']      = $this->token;
         $data['module']     = $this->module;
         $data['openid']     = $this->openid;
-        $data['msisdn']     = $this->mobile;
+        $data['phone']     = $this->mobile;
         $data['product_cate_id']    = &$detail['product_cate_id'];
         $data['award_id']           = &$detail['id'];
         $data['award_value']        = &$value;
